@@ -11,6 +11,14 @@ body{
     margin: 0;
 }
 
+button {
+    padding: 7px;
+    border-radius: 5px;
+    border: none;
+    background: #fd324e;
+    color: white;
+}
+
 .titulo {
     font-size: 70px;
     font-family: 'Montserrat', sans-serif;
@@ -91,7 +99,7 @@ body{
 }
 
 .guitarra {
-    
+    border-radius: 8px;
     border: 1px solid #1F313C;
     padding: 10px;
     margin: 10px;
@@ -103,4 +111,23 @@ body{
 
 .contenedor-guitarra-b {
     margin-left: 370px;
+}
+
+/* footer */
+.footer {
+    background: #273b47;
+}
+
+.contacto img {
+    display: block;
+}
+
+.contacto strong {
+    display: block;
+}
+
+.contacto a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
 }
