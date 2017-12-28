@@ -10,36 +10,35 @@
 </head>
 <body>
     <!-- el proyecto tiene 3 partes principales - Header, Seccion, Guitarras(otra seccion) -->
-    
     <!-- Header -->
-    <header id="header" class="header contenedor">
-        <!-- Logo y menú -->
-        <figure class="logotipo">
-            <!-- Envuelve una imagen -->
-            <!-- alt es para que se vea un texto cuando la imagen no cargue -->
-            <img src="images/invie.png" width="186" height="60" alt="Invie logotipo" />
-        </figure>
-        <nav class="menu">
-            <!-- Es para el menú, se hace con listas -->
-            <ul>
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
-                <li>
-                    <a href="#guitarra">Guitarras</a>
-                </li>
-                <li>
-                    <a href="precios.html">Precios</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-
+    
     <!-- Portada -->
-    <section id="portada" class="portada">
+    <section id="portada" class="portada background">
+        <header id="header" class="header contenedor">
+                <!-- Logo y menú -->
+                <figure class="logotipo">
+                    <!-- Envuelve una imagen -->
+                    <!-- alt es para que se vea un texto cuando la imagen no cargue -->
+                    <img src="images/invie.png" width="186" height="60" alt="Invie logotipo" />
+                </figure>
+                <nav class="menu">
+                    <!-- Es para el menú, se hace con listas -->
+                    <ul>
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="#guitarra">Guitarras</a>
+                        </li>
+                        <li>
+                            <a href="precios.html">Precios</a>
+                        </li>
+                    </ul>
+                </nav>
+        </header>
         <div class="contenedor">
             <!-- titulo, resumen, boton -->
-            <h1 class="titulo">Guitarras Invisibles</h1>
+            <h1 class="titulo">Guitarras <span>invi</span>sibles</h1>
             <h3 class="title-a">Sé la estrella del rock que siempre quisiste ser</h3>
             <button class="button">Conoce más</button>
         </div>
@@ -68,7 +67,7 @@
                 </ol>
             </div>
         </article>
-        <article class="guitarra">
+        <article class="guitarra b">
             <img class="izquierda" src="images/invie-classic.png" alt="Guitarra Invie classic" width="350" />
             <div class="contenedor-guitarra-b">
                 <!-- titulo, features, imagen -->
