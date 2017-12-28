@@ -1,16 +1,14 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Allerta|Montserrat:400,700" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css" />
-    <title>Invie - tus mejores guitarras!</title>
+    <title>Document</title>
 </head>
 <body>
-    <!-- el proyecto tiene 3 partes principales - Header, Seccion, Guitarras(otra seccion) -->
-    
     <!-- Header -->
     <header id="header" class="header contenedor">
         <!-- Logo y menú -->
@@ -26,7 +24,7 @@
                     <a href="index.html">Home</a>
                 </li>
                 <li>
-                    <a href="#guitarra">Guitarras</a>
+                    <a href="index.html#guitarra">Guitarras</a>
                 </li>
                 <li>
                     <a href="precios.html">Precios</a>
@@ -35,57 +33,36 @@
         </nav>
     </header>
 
-    <!-- Portada -->
-    <section id="portada" class="portada">
+    <section class="tabla">
         <div class="contenedor">
-            <!-- titulo, resumen, boton -->
-            <h1 class="titulo">Guitarras Invisibles</h1>
-            <h3 class="title-a">Sé la estrella del rock que siempre quisiste ser</h3>
-            <button class="button">Conoce más</button>
+            <table>
+                <thead>
+                    <tr>
+                        <!-- celdas para cabezer    a -->
+                        <th>Modelo</th>
+                        <th>Precio</th>
+                        <th>Descripción</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Invie Classic</td>
+                        <td>$100000</td>
+                        <td>Una guitarra muy pro</td>
+                    </tr>
+                    <tr>
+                        <td>Invie Classic</td>
+                        <td>$100000</td>
+                        <td>Una guitarra muy pro</td>
+                    </tr>
+                    <tr>
+                        <td>Invie Classic</td>
+                        <td>$100000</td>
+                        <td>Una guitarra muy pro</td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
-    </section>
-
-    <!-- Guitarras -->
-    <section id="guitarra" class="guitarras contenedor">
-        <!-- Titulo, guitarra 1, guitarra 2 -->
-        <h2>Nuestras guitarras</h2>
-        <!-- article es una etiqueta para poner pedazos que engloben contenido específico -->
-        <article class="guitarra">
-            <img class="derecha" src="images/invie-acustica.png" alt="Guitarra Invie acústica" width="350" />
-            <div class="contenedor-guitarra-a">
-                <!-- titulo, features, imagen -->
-                <h3 class="title-b">Invie Acústica</h3>
-                <ol>
-                    <li>
-                        Estilo vintage
-                    </li>
-                    <li>
-                        Madera pura
-                    </li>
-                    <li>
-                        Incluye estuche invisible de aluminio
-                    </li>
-                </ol>
-            </div>
-        </article>
-        <article class="guitarra">
-            <img class="izquierda" src="images/invie-classic.png" alt="Guitarra Invie classic" width="350" />
-            <div class="contenedor-guitarra-b">
-                <!-- titulo, features, imagen -->
-                <h3 class="title-b">Invie Classic</h3>
-                <ol>
-                    <li>
-                        Estilo vintage
-                    </li>
-                    <li>
-                        Liviana
-                    </li>
-                    <li>
-                        Inicia tu camino para ser un rockstar
-                    </li>
-                </ol>
-            </div>
-        </article>
     </section>
 
     <footer class="footer">
@@ -141,6 +118,5 @@
             </div>
         </div>
     </footer>
-
 </body>
 </html>
